@@ -1,0 +1,11 @@
+{
+    "name": "Top Solution For Chegg",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["*://*.chegg.com/*"],
+            "js": ["contents.js"]
+        }
+    ]
+}
